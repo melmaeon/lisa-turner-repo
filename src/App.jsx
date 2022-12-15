@@ -19,7 +19,16 @@ function App() {
                 <span className="service-home-cards-arrow-left" data-glide-dir="<">::before</span>
                 <span className="service-home-cards-arrow-right" data-glide-dir=">">::before</span>
               </div>
-              <div className="service-home-cards-carousel-track">{/* refer to template site for help here */}</div>
+              <div className="service-home-cards-carousel-track">
+                <div className="service-home-cards-carousel-track-cards">
+                  <a href="#">
+                    <picture className="service-home-cards-carousel-picture-1">
+                      <source type="image/webp" srcset="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.britannica.com%2Fanimal%2Fred-fox-mammal&psig=AOvVaw2n0aIuTuiEZWglQpRb16QK&ust=1671148507548000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCKiGrbqn-vsCFQAAAAAdAAAAABAE" />
+                      <img itemprop="image" class alt="Red Fox" />
+                    </picture>
+                  </a>
+                </div>
+              </div>
             </div>
           </section>
         </div>
